@@ -1,0 +1,52 @@
+
+.download__text {
+text-align: center;
+}
+.download__text-title {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-bottom: 5.20px;
+    margin-top: 114px;
+    
+}
+.download__text-subtitle {
+    font-family: Raleway;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+text-transform: uppercase;
+margin-bottom: 47.71px;
+
+}
+.download__text-button {
+    width: 370px;
+    height: 80px;
+    background-color: #FF4343;
+    color: #fff;
+    font-family: Raleway;
+font-size: 24px;
+font-weight: 900;
+line-height: 28px;
+text-transform: uppercase;
+margin: 0 auto;
+padding-top: 40px;
+margin-bottom: 114px;
+}
+@media screen and (max-width: 767px) {
+    .download__text-button {
+    width: 270px;
+    height: 60px;
+    font-size: 18px;
+    }
+    .download__text-title {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+    .download__text-subtitle {
+    font-size: 16px;
+    }
+}

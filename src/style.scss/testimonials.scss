@@ -1,0 +1,63 @@
+@import url(https://fonts.google.com/specimen/Cardo?query=cardo);
+.testimonials {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+.testimonials__items {
+    display: flex;
+    
+    justify-content: center;
+    
+
+}
+.items__left {
+    width: 741px;
+//     background-image: url(../img/testimonials-left.svg);
+// background-repeat: no-repeat;
+// background-position: center center;
+// background-size: cover;
+// background-attachment: scroll;
+}
+.items__right {
+    
+    background-color: #5C3249;
+}
+.items__right-title {
+    text-align: center;
+    margin: 116px 170px 0;
+    width: 471px;
+    font-family: 'Cardo', serif;
+font-size: 36px;
+font-style: italic;
+font-weight: 400;
+line-height: 49px;
+text-align: left;
+color: #fff;
+
+}
+.items__right-subtitle {
+width: 471px;
+margin: 0 170px 116px;
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 15px;
+text-align: left;
+
+}
+.items__down {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+    :nth-child(2) {
+        background-color: #7E5D6F;
+}
+.items__down-ball {
+    border: 1px solid #7E5D6F;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 25px;
+    }
+}
