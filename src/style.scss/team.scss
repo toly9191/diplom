@@ -4,9 +4,12 @@
 }
 .team-columns__column {
     width: 25%;
+    margin-right: 15px;
 }
 .column-photo {
     margin-bottom: 30px;
+    max-width: 270px;
+    width: 100%;
 }
 .column-title {
     font-family: 'Raleway', sans-serif;
@@ -34,9 +37,20 @@ font-size: 18px;
 font-weight: 400;
 line-height: 21px;
 color: #6C7279;
-padding-right: 24px;
 margin-bottom: 37.86px;
 }
 .team {
     margin-bottom: 114px;
+}
+@media screen and (max-width:766px) {
+    .team-columns {
+        flex-direction: column;
+    }
+    .team-columns__column {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .column-items {
+        margin-bottom: 49px;
+    }
 }

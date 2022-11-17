@@ -2,13 +2,10 @@
     max-width: 1510px;
    margin: 0 auto;
 }
-
-
-
 .work-images {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 340px 340px;
+    grid-template-rows: 50% 50%;
     overflow: hidden;
 }
 .work-images__img-bg {
@@ -17,18 +14,17 @@ background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 background-attachment: scroll;
-width: 378px;
-
-    
+max-width: 378px;
 }
 .bg-pink {
     background-color: rgba(255, 67, 67, 0.8);
-    width: 378px;
-    height: 340px;
+    max-width: 378px;
+    min-height: 100%;
+    width: 100%;
 }
 .img__photo {
-    width: 378px;
-    height: 340px;
+    max-width: 378px;
+    width: 100%;
 }
 .img__photo-text {
     font-family: 'Raleway', sans-serif;
@@ -37,8 +33,7 @@ width: 378px;
     line-height: 28px;
     text-align: center;
     color: #fff;
-    margin-bottom: 20.57px;
-    
+    margin-bottom: 20.57px; 
 }
 .img__photo-subtext {
     font-family: 'Raleway', sans-serif;
@@ -50,5 +45,21 @@ width: 378px;
 }
 .img-text {
     align-items: center;
-    padding-top: 110px;
+}
+@media screen and (max-width: 766px) {
+    .work-images {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+}
+.img__photo-text {
+font-size: 18px;
+font-weight: 900;
+line-height: 21px;
+}
+.img__photo-subtext {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+}
 }

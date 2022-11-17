@@ -122,6 +122,7 @@ font-family: 'Raleway', sans-serif;
     }
     .header__nav {
         display: block;
+        
     }
 .banner__container-title{
 font-size: 48px;
@@ -146,4 +147,26 @@ font-size: 24px;
     .burger {
         display: block;
     }
+    .header__inner {
+        border: none;
+    }
+    .banner__container {
+        padding: 0 0 52px;
+    }
+    .header__logo {
+        padding-left: 10px;
+    }
+    .banner__container-title{
+        font-family: Raleway;
+font-size: 36px;
+font-weight: 900;
+line-height: 42px;
+    }
+    .banner__container-text {
+        font-size: 14px;
+        line-height: 16px;
+        }
+        .banner__container-button {
+        width: 280px;
+        }
 }

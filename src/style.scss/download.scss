@@ -34,6 +34,14 @@ margin: 0 auto;
 padding-top: 40px;
 margin-bottom: 114px;
 }
+@media screen and (max-width: 1000px) {
+    .download__text-button {
+        width: 315px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 21px; 
+    }
+}
 @media screen and (max-width: 767px) {
     .download__text-button {
     width: 270px;
@@ -41,7 +49,6 @@ margin-bottom: 114px;
     font-size: 18px;
     }
     .download__text-title {
-        font-family: Raleway;
         font-size: 18px;
         font-weight: 500;
 

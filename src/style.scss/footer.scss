@@ -13,7 +13,8 @@ footer {
     justify-content: space-between;
 }
 .footer__column {
-    width: 30%;
+    width: 31%;
+    margin-right: 20px;
 
 }
 .footer__column-title {
@@ -64,4 +65,29 @@ font-weight: 400;
 line-height: 21px;
 color: #808080;
 
+}
+@media screen  and (max-width:1000px){
+    .footer__column-title {
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+    }
+    .footer__column-subtitle {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+    }
+    .down-text-bg {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+    }
+}
+@media screen  and (max-width:766px){
+    .footer__columns {
+        flex-direction: column;
+    }
+    .footer__column {
+        width: 100%;
+    }
 }
